@@ -161,6 +161,10 @@ under the License.
                     <groupId>org.apache.derby</groupId>
                     <artifactId>derby</artifactId>
                 </exclusion>
+                <exclusion>
+                    <artifactId>HikariCP</artifactId>
+                    <groupId>com.zaxxer</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -279,6 +283,10 @@ under the License.
                 <exclusion>
                     <groupId>org.apache.orc</groupId>
                     <artifactId>orc-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>HikariCP</artifactId>
+                    <groupId>com.zaxxer</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
